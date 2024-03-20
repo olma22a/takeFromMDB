@@ -44,8 +44,8 @@ func main() {
 		log.Fatal(err)
 	}
 
-	staticKoken := "45ytesyhrtuwtjhurtj"
-	result.Koken = "45ytesyhrtuwtjhurtj"
+	staticKoken := "randomToken"
+	result.Koken = "randomToken"
 	if result.Koken != staticKoken {
 		fmt.Println("Введите верный токен")
 		log.Fatal(err)
